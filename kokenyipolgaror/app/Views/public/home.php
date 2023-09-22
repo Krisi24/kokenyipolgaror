@@ -1,6 +1,7 @@
 <?= $this->extend('layouts/main.php'); ?>
 
 <?= $this->section('content'); ?>
+
   <div class="section">
     <div class="title">Some Title</div>
     <div class="text-content">
@@ -10,66 +11,7 @@
       <img src="<?= base_url(); ?>images/example.jpg" />
       <img src="<?= base_url(); ?>images/example.jpg" />
       <img src="<?= base_url(); ?>images/example.jpg" />
-      <img src="<?= base_url(); ?>images/example.jpg" />
-      <img src="<?= base_url(); ?>images/example.jpg" />
-      <img src="<?= base_url(); ?>images/example.jpg" />
-      <img src="<?= base_url(); ?>images/example.jpg" />
-      <img src="<?= base_url(); ?>images/example.jpg" />
     </div>
-  </div>
-
-  <div class="section">
-	  <img src="<?= base_url(); ?>images/flag.png" />
-    im
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    im
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    im
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    im
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    im
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
-    <br>
-    klsdfn sdflfjn lksdfg dlgj lsdfjg lsdfkmbjésldmbsdfélbk dfs
   </div>
   
 <?= $this->endSection(); ?>
