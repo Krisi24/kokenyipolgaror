@@ -15,20 +15,18 @@ body {
     background-color: var(--white);
     padding: 0;
     margin: 0;
+    font-family: Georgia, sans-serif;
 }
 
 /*
 navigation bar
 */
-.flag {
-  height: 50px;
-  position: center;
-}
 
 nav {
-  background-color: var(--blue);
+  background: var(--blue);
   height: 2.25rem;
   padding: .25rem;
+  border-bottom: solid 1px var(--black);
 }
 
 nav ul {
@@ -42,14 +40,14 @@ nav > ul {
     
 nav > ul > li {
   float: left;
-  margin-right: 2px;
+  margin: 1px 0;
+  border-right: solid 1px var(--black);
 }
       
-nav ul li a, nav ul li span {
+nav > ul > li a, nav > ul > li > span {
   display: block;
   margin: 0;
-  padding: .25rem;
-  border-radius: 1px;
+  padding: .25rem .5rem;
 
   min-width: 7rem;
 
@@ -57,22 +55,20 @@ nav ul li a, nav ul li span {
   color: var(--white);
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 400;
-  transition: .3s ease-in-out;
-}
-
-nav ul li ul li a {
-  background-color: var(--blue);
+  transition: .2s ease-in-out;
 }
       
-nav ul li a:hover,
-nav ul li span:hover,
-nav ul li ul li a:hover {
-  color: var(--blue);
+nav > ul > li a:hover,
+nav > ul > li > span:hover{
+  color: var(--black);
   background-color: var(--white);
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
+nav > ul > li li > a {
+  border-radius: 0;
+  background: var(--blue);
+}
 /*
 dropdown
 */
@@ -85,13 +81,13 @@ dropdown
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 2.2rem;
+  top: 2.24rem;
   left: -2.5rem;
   z-index: 1;
 }
 
 .dropdown-content li a {
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  box-shadow: 2px 4px 4px 0px black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -124,18 +120,26 @@ dropdown
 /* footer */
 
 footer {
+  position: relative;
   height: 8rem;
   padding: 1rem;
   background-color: var(--blue);
+}
+
+footer .footer-content {
   color: var(--white);
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 footer img.email {
   position: relative;
   top: .5rem;
   height: 2rem;
+}
+
+footer .logo {
+  float: left;
+  height: 8rem;
 }
 
 
@@ -149,7 +153,4 @@ footer img.email {
 
     text-align: center;
     font-size: 48px;
-    color: var(--yellow);
-    background-color: var(--black);
-    border: solid 2px var(--yellow);
 }
