@@ -20,6 +20,16 @@ body {
 /*
 navigation bar
 */
+.flag {
+  height: 50px;
+  position: center;
+}
+
+nav {
+  background-color: var(--blue);
+  height: 2.25rem;
+  padding: .25rem;
+}
 
 nav ul {
   list-style-type: none;
@@ -27,27 +37,27 @@ nav ul {
 }
 
 nav > ul {
-  height: 3rem;
-  padding: .5rem;
-  padding-left: 1rem;
   overflow: visible;
-  background-color: var(--blue);
 }
     
 nav > ul > li {
   float: left;
-  margin: 2px;
+  margin-right: 2px;
 }
       
 nav ul li a, nav ul li span {
-  border-radius: 1px;
   display: block;
+  margin: 0;
+  padding: .25rem;
+  border-radius: 1px;
+
+  min-width: 7rem;
+
+  text-decoration: none;
   color: var(--white);
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
-  padding: .5rem .5rem;
-  text-decoration: none;
   transition: .3s ease-in-out;
 }
 
@@ -75,7 +85,7 @@ dropdown
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 2.5rem;
+  top: 2.2rem;
   left: -2.5rem;
   z-index: 1;
 }
@@ -93,6 +103,22 @@ dropdown
 .main-content {
   min-height: calc(100vh - 12rem);
   margin: 1rem;
+}
+
+.main-content .main-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.main-content .main-background .logo {
+  height: 90vh;
 }
 
 /* footer */
@@ -123,5 +149,7 @@ footer img.email {
 
     text-align: center;
     font-size: 48px;
-    color: var(--black);
+    color: var(--yellow);
+    background-color: var(--black);
+    border: solid 2px var(--yellow);
 }

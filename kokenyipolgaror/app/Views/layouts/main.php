@@ -12,8 +12,11 @@
         'page_name' => $page_name
     ]) ?>
 
-    <div class="main-content">
-        <?= $this->renderSection('content'); ?>
+    <div class="main-content"> 
+      <div class="main-background">
+      <img class="logo" src="<?= base_url(); ?>images/logo.webp"/>
+      </div>
+      <?= $this->renderSection('content'); ?>
     </div>
 
     <?= view('components/footer') ?>
