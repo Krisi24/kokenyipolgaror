@@ -13,7 +13,46 @@ main colors:
 
 .section {
     width: 100%;
+    max-width: 1000px;
     height: fit-content;
-    border: solid 2px var(--black);
+
+    padding: 1.5rem;
+    border-radius: .5rem;
     background-color: var(--blue);
+    color: var(--white);
+    box-shadow: 4px 4px 8px 4px black;
 }
+
+
+.section .text-content {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    border-left: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+    color: var(--white);
+    font-size: 1.2rem;
+    
+}
+
+.section .title {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+}
+
+.section .images {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.section .images img {
+    border-radius: .2rem;
+    border: 1px solid var(--white);
+    max-height: 200px;
+    max-width: 200px;
+}
+

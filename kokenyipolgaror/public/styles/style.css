@@ -23,10 +23,12 @@ navigation bar
 */
 
 nav {
+  position: sticky;
+  top: 0;
   background: var(--blue);
   height: 2.25rem;
   padding: .25rem;
-  border-bottom: solid 1px var(--black);
+  border-bottom: solid 4px var(--white);
 }
 
 nav ul {
@@ -41,7 +43,7 @@ nav > ul {
 nav > ul > li {
   float: left;
   margin: 1px 0;
-  border-right: solid 1px var(--black);
+  border-right: solid 1px var(--white);
 }
       
 nav > ul > li a, nav > ul > li > span {
@@ -95,6 +97,33 @@ dropdown
   display: block;
 }
 
+/* banner */
+
+.banner {
+  height: fit-content;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: var(--blue);
+  box-shadow: 0 10px 16px black;
+}
+
+.banner img {
+  height: 10rem;
+  width: auto;
+}
+
+.banner h1 {
+  color: var(--yellow);
+  text-align: center;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+
 /* main-content */
 
 .main-content {
@@ -103,7 +132,8 @@ dropdown
   justify-content: center;
   flex-flow: column;
   min-height: calc(100vh - 12rem);
-  margin: 1rem;
+  margin: 2rem;
+  gap: 3rem;
 }
 
 .main-content .main-background {

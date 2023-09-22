@@ -13,6 +13,15 @@
         'page_name' => $page_name
     ]) ?>
 
+    <!-- <div class="banner">
+      <img src="<?= base_url(); ?>images/flag.png" />
+    </div> -->
+
+    <div class="banner">
+      <img src="<?= base_url(); ?>images/logo.webp" />
+      <h1>KÖKÉNYI POLGÁRŐR EGYESÜLET</h1>
+    </div>
+
     <div class="main-content"> 
       <div class="main-background">
       <img class="logo" src="<?= base_url(); ?>images/logo.webp"/>
