@@ -69,6 +69,7 @@ nav > ul > li li > a {
   border-radius: 0;
   background: var(--blue);
 }
+
 /*
 dropdown
 */
@@ -97,13 +98,17 @@ dropdown
 /* main-content */
 
 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
   min-height: calc(100vh - 12rem);
   margin: 1rem;
 }
 
 .main-content .main-background {
   position: fixed;
-  top: 0;
+  top: -2rem;
   left: 0;
   height: 100vh;
   width: 100vw;

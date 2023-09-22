@@ -1,0 +1,19 @@
+/*
+main colors:
+  usage:
+    yellow + black
+    blue + white
+*/
+:root {
+    --yellow: #E9B311;
+    --black: #0D0605;
+    --blue: #015A9E;
+    --white: #ffffff;
+}
+
+.section {
+    width: 100%;
+    height: fit-content;
+    border: solid 2px var(--black);
+    background-color: var(--blue);
+}

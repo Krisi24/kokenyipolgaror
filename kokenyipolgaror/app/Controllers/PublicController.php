@@ -22,7 +22,7 @@ class PublicController extends BaseController
             'page_names' => $this->page_names,
         ];
         
-        return view('home', $data);
+        return view('public/home', $data);
     }
 
     public function public_data(): string
@@ -33,7 +33,7 @@ class PublicController extends BaseController
             'page_names' => $this->page_names,
         ];
         
-        return view('home', $data);
+        return view('public/public_data', $data);
     }
 
     public function organization_structure(): string
@@ -44,7 +44,7 @@ class PublicController extends BaseController
             'page_names' => $this->page_names,
         ];
         
-        return view('home', $data);
+        return view('public/organization_structure', $data);
     }
 
     public function excipients(): string
@@ -55,7 +55,7 @@ class PublicController extends BaseController
             'page_names' => $this->page_names,
         ];
         
-        return view('home', $data);
+        return view('public/excipients', $data);
     }
 
     public function press(): string
@@ -66,6 +66,6 @@ class PublicController extends BaseController
             'page_names' => $this->page_names,
         ];
         
-        return view('home', $data);
+        return view('public/press', $data);
     }
 }

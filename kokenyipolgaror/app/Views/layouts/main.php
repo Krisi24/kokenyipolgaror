@@ -6,6 +6,7 @@
 	<link rel="icon" type="image/jpg"  href="<?= base_url(); ?>images/logo.webp" />
 	<meta name="author" content="Kristóf Péter Cseh">
 	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>styles/style.css">
+	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>styles/content.css">
   </head>
   <body>
     <?= view('components/menu', [
