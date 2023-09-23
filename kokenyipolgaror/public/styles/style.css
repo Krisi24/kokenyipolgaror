@@ -25,13 +25,14 @@ navigation bar
 nav {
   position: sticky;
   top: 0;
-  background: var(--blue);
+  background-color: var(--blue);
   height: 2.25rem;
   padding: .25rem;
   border-bottom: solid 4px var(--white);
 }
 
 nav ul {
+  display: block;
   list-style-type: none;
   margin: 0;
 }
@@ -46,7 +47,7 @@ nav > ul > li {
   border-right: solid 1px var(--white);
 }
       
-nav > ul > li a, nav > ul > li > span {
+nav > ul > li a{
   display: block;
   margin: 0;
   padding: .25rem .5rem;
@@ -60,8 +61,7 @@ nav > ul > li a, nav > ul > li > span {
   transition: .2s ease-in-out;
 }
       
-nav > ul > li a:hover,
-nav > ul > li > span:hover{
+nav > ul > li a:hover{
   color: var(--black);
   background-color: var(--white);
   transition: .2s ease-in-out;
@@ -72,13 +72,24 @@ nav > ul > li li > a {
   background: var(--blue);
 }
 
+@media only screen and (max-width: 800px) {
+  nav {
+    height: max-content;
+  }
+  nav > ul > li {
+    float: none;
+  }
+  .dropdown-content {
+    width: 75%;
+  }
+}
+
 /*
 dropdown
 */
 
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {

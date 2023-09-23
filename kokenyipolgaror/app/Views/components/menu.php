@@ -2,7 +2,7 @@
   <ul>
     <li><a href="/home"><?= $page_names['main_page'] ?></a></li>
     <li class="dropdown">
-      <span href="">Szervezet</span>
+      <a>Szervezet</a>
       <ul class="dropdown-content">
         <li><a href="/szervezet/kozerdeku_adatok"><?= $page_names['public_data'] ?></a></li>
         <li><a href="/szervezet/szervezet_felepeitese"><?= $page_names['organization_structure'] ?></a></li>

@@ -16,10 +16,11 @@ class PublicController extends BaseController
 
     public function index(): string
     {
+        
         $data = [
             'meta_title' => $this->main_title,
             'page_name' => $this->page_names['main_page'],
-            'page_names' => $this->page_names,
+            'page_names' => $this->page_names
         ];
         
         return view('public/home', $data);
